@@ -17,7 +17,7 @@
         }
 
         header {
-            background-color: #007bff; /* Blue header background */
+            background-color: #007bff;
             color: #fff;
             text-align: center;
             padding: 40px 0;
@@ -44,7 +44,9 @@
         nav a:hover {
             color: #00fbff;
         }
+       
 
+    
         section {
             padding: 20px;
             background-color: #333;
@@ -69,6 +71,26 @@
             margin-top: 0;
             color: #fff;
         }
+
+    .about-me {
+    display: flex;
+    flex-direction: column;
+     }
+
+   .about-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    }
+
+   .text {
+    flex: 1;
+   }
+
+   .profile-image img {
+    max-width: 100%; 
+    height: 300px; 
+   }
 
         
         .contact-icons {
@@ -107,13 +129,20 @@
         <div class="container">
             <div class="about-me">
                 <h2>About Me</h2>
-                <p>Greetings! I'm Hamsapriya B A, a dedicated and forward-thinking engineering student specializing in Computer Science and Engineering. Currently pursuing my degree at Dayananda Sagar College Of Engineering, Bangalore, I'm passionate about leveraging technology to solve real-world problems and drive innovation.
-                    Throughout my academic journey, I've immersed myself in a wide array of subjects, from data structures and algorithms to software engineering. I thrive on challenges and am constantly seeking opportunities to deepen my understanding and broaden my skill set.
-                    In addition to my coursework, I've been actively involved in various hands-on projects and extracurricular activities that have allowed me to apply theoretical concepts to practical scenarios.
-                    What sets me apart is my proactive approach to learning and my ability to adapt to new technologies and methodologies quickly. Whether it's coding in Java, Python, or C++, designing user interfaces, I'm always eager to expand my knowledge and tackle challenges head-on.
-                    As I prepare to transition from academics to the professional world, I'm excited about the prospect of leveraging my skills and expertise to make a meaningful impact in the tech industry. Whether it's developing innovative solutions, optimizing processes, or driving digital transformation, I'm committed to pushing the boundaries of what's possible.</p>
+                <div class="about-content">
+                    <div class="text">
+                        <p>Greetings! I'm Hamsapriya B A, a dedicated and forward-thinking engineering student specializing in Computer Science and Engineering. Currently pursuing my degree at Dayananda Sagar College Of Engineering, Bangalore, I'm passionate about leveraging technology to solve real-world problems and drive innovation.
+                            Throughout my academic journey, I've immersed myself in a wide array of subjects, from data structures and algorithms to software engineering. I thrive on challenges and am constantly seeking opportunities to deepen my understanding and broaden my skill set.
+                            In addition to my coursework, I've been actively involved in various hands-on projects and extracurricular activities that have allowed me to apply theoretical concepts to practical scenarios.
+                            What sets me apart is my proactive approach to learning and my ability to adapt to new technologies and methodologies quickly. Whether it's coding in Java, Python, or C++, designing user interfaces, I'm always eager to expand my knowledge and tackle challenges head-on.
+                            As I prepare to transition from academics to the professional world, I'm excited about the prospect of leveraging my skills and expertise to make a meaningful impact in the tech industry. Whether it's developing innovative solutions, optimizing processes, or driving digital transformation, I'm committed to pushing the boundaries of what's possible.</p>
+                      
+                    </div>
+                    <div class="profile-image">
+                        <img src="img.jpg" alt="Profile Picture">
+                    </div>
+                </div>
             </div>
-            
         </div>
     </section>
 
